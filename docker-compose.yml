@@ -1,7 +1,7 @@
 broker01:
   image: redis
   expose:
-    - "6379:6379"
+    - "6379/TCP"
 
 es01:
   image: elasticsearch
